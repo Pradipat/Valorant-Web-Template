@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Londrina Outline', cursive; */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+footer{
+    width: 100%;
+    height: 66px;
+    background-color: rgb(255, 255, 255);
+}
+/* header */
+header{
+    font-weight: bold;
+    border-bottom:solid 1px rgb(69, 69, 69);
+    padding-top: 10px;
+    font-size: 14px;
+    background-color: #1F2326;
+    height: 66px;
+    width: 100%;
+}
+.container{
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    margin-left: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu div{
+    font-weight: bold;
+    padding-left: 22px;
+}
+.info{
+    margin-right: 22px;
+    display: flex;
+    align-items: center;
+}
+.info div{
+    padding-left: 14px;
+}
+/* header */
+
+/* content */
+.content{
+    position: relative;
+    display: flex;
+    background-color: #FF4656;
+    background-image: url(img/background.png);
+    height: 100vh;
+    width: 100%;
+}
+.agent img{
+    position: absolute;
+    height: 75%;
+    left: 100px;
+    top :40px;
+}
+.container_card{
+    display: flex;
+    margin-left: 260px;
+    margin-top: 90px;
+}
+.card{
+    margin-right: 70px;
+    position: relative;
+    max-height: 495px;
+    width: 220px;
+    background-color: #1F2326;
+}
+.charactor img{
+    width: 100%;
+}
+.ability{
+    position: absolute;
+    left: 24px;
+    bottom: -24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 220px;
+    background-color: #1F2326;
+    border: solid 1px white;
+}
+.ability div{
+    display: flex;
+    padding: 8px;
+    height: 100%;
+    width: 20%;
+}
+.ability div img{
+    padding: 3px;
+    width: 100%;
+}
+.name{
+    position: absolute;
+    font-size: 24px;
+    transform: rotate(90deg) translateX(50%) translateY(100%);
+    top: -20px;
+    left:0;
+}
+.pheonix-name{
+    left:-60px;
+}
+.tail{
+    font-size: 22px;
+    margin: 0;
+    color: #FF4656;
+    letter-spacing: 2px;
+    line-height: 0px;
+}
+.nick{
+    margin: 0;
+    color: white;
+    letter-spacing: 8px;
+    font-size: 54px;
+    font-weight: bold;
+    line-height:80px;
+}
+/* content */
